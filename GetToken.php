@@ -6,7 +6,7 @@ $fields = array(
 	'username' => urlencode('admin'),
 	'password' => urlencode('Maxabdo95')
 );
-$fields_string = '';
+$fields_string = '-';
 //url-ify the data for the POST
 foreach($fields as $key=>$value) { $fields_string .= $key.'='.$value.'&'; }
 rtrim($fields_string, '&');
