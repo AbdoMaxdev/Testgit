@@ -4,7 +4,7 @@
 $url = 'http://192.168.182.136/api/index.php?action=authenticate';
 $fields = array(
 	'username' => urlencode('admin'),
-	'password' => urlencode('Maxabdo95')
+	'password' => urlencode('admin')
 );
 $fields_string = '-';
 //url-ify the data for the POST
